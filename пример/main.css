@@ -4,14 +4,31 @@ li{
 	display: none;
 
 }
+.a{
+	color: black;
+	float: left;
+	margin-left: 100px;
+}
 #a{
 	background-color: #FDFC01FF;
 	height: 100px;
 	width: 100px;
+	display: none;
 }
 #a:active{
-	display: none;
+	
 }
 #a:hover li{
 	display: block;
+}
+#a:hover{
+	
+}
+@media (max-width: 768px){
+#a{
+	display: block;
+}
+.a{
+	display: none;
+}
 }
