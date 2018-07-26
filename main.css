@@ -16,6 +16,11 @@ font-size: 13px;
 		display: none;
 	}
 }
+@media (max-width: 992px){
+	#oneblock{
+		margin-bottom: 10px;
+	}
+}
 #b{
 	z-index: 10;
 	background-color: #333300;
@@ -92,9 +97,10 @@ line-height: 50px;
 	background-color: #ffcc66;
 	min-height: 200px;
 	border-radius: 5px;
-		margin-top: 70px;
-		margin-bottom: 100px;
-		padding: 10px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	padding: 10px;
+	font-size: 1.3em;
 }
 #d{
 	background-color: #663300;
@@ -108,4 +114,14 @@ h4{
 }
 li{
 
+}
+.block>p{
+	margin-top: 20px;
+}
+.left{
+	text-align: left;
+}
+input{
+	margin-bottom: 20px;
+	width: 100%;
 }
