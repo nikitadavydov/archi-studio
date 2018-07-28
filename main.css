@@ -81,7 +81,6 @@ line-height: 50px;
 .picter{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-radius: 3px;
 	width: 100%;
 }
 .a{
@@ -91,7 +90,7 @@ line-height: 50px;
 	font-size: 1.3em;
 }
 .on{
-	border: 10px solid #EC9112FF;
+	border: 5px solid #EC9112FF;
 }
 .block{
 	background-color: #ffcc66;
@@ -133,4 +132,5 @@ input{
 	background-position: center;
     background-size: cover;
     transition-duration: 0.1s;
+    background-repeat: no-repeat;
 }
