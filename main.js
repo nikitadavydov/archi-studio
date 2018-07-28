@@ -22,6 +22,12 @@ $('#fiveimg').click(function () {
 	$('#main').css("background-image","url(img/20180416.jpg)")
 	$('.picter').removeClass('on')
 	$('#fiveimg').toggleClass('on')
-
 })
+$('#siximg').click(function () {
+	$('#main').css("background-image","url(img/dc5e4678faf3.png)")
+	$('.picter').removeClass('on')
+	$('#siximg').toggleClass('on')
+})
+
+
 

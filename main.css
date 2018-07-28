@@ -3,6 +3,11 @@ body {
 	overflow-x: hidden;
 font-size: 15px;
 }
+@media (max-width: 576px) {
+	#fourimg{
+		margin-bottom: 0px;
+	}	
+}
 @media (max-width: 768px) {
 body{
 font-size: 13px;
@@ -17,8 +22,14 @@ font-size: 13px;
 	}
 }
 @media (max-width: 992px){
-	#oneblock{
-		margin-bottom: 10px;
+	#oneimg{
+		margin-bottom: 0px;
+}
+	#twoimg{
+		margin-bottom: 0px;
+}
+	#threeimg{
+		margin-bottom: 0px;
 	}
 }
 #b{
@@ -79,7 +90,7 @@ line-height: 50px;
 	text-shadow: 1px 1px 1px black;
 }
 .picter{
-	margin-top: 20px;
+
 	margin-bottom: 20px;
 	width: 100%;
 }
@@ -131,6 +142,9 @@ input{
 	height: 450px;
 	background-position: center;
     background-size: cover;
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     background-repeat: no-repeat;
+}
+#upblock{
+	margin-bottom: 20px;
 }
