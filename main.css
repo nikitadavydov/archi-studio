@@ -138,12 +138,12 @@ input{
 #main{
 	margin-top: 35px;
 	margin-bottom: 35px;
-	background-image: url(img/dc5e4678faf3.jpg);
-	height: 450px;
+	background-color: #DD7C21FF;
 	background-position: center;
     background-size: cover;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
     background-repeat: no-repeat;
+    width: 100%
 }
 #upblock{
 	margin-bottom: 20px;
