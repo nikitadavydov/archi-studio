@@ -125,3 +125,12 @@ input{
 	margin-bottom: 20px;
 	width: 100%;
 }
+#main{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background-image: url(img/dc5e4678faf3.jpg);
+	height: 450px;
+	background-position: center;
+    background-size: cover;
+    transition-duration: 0.1s;
+}
