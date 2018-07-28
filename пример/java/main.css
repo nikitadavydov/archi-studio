@@ -1,0 +1,19 @@
+.block{
+	height: 500px;
+	width: 500px;
+	background-color: green;
+	position: fixed;
+	left: -500px;
+	transition-duration: 1s;
+}
+.off{
+	height: 50px;
+	width: 200px;
+	background-color: #69AE50FF;
+	border-radius: 100px;
+	position: 20px;
+	padding-left: 50px;
+}
+.on{
+	left: 0px;
+}
