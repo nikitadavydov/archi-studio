@@ -1,0 +1,14 @@
+@media(max-width: 355px){
+	.container{
+		min-width: 355px;	
+	}
+	.bcg{
+		min-width: 355px;	
+	}
+	.green{
+		min-width: 355px;	
+	}
+	.maintwo{
+		min-width: 355px;	
+	}
+}

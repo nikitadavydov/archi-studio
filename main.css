@@ -1,156 +1,74 @@
-
-body {
-	overflow-x: hidden;
-font-size: 15px;
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;;
 }
-@media (max-width: 576px) {
-	#fourimg{
-		margin-bottom: 0px;
-	}	
-}
-@media (max-width: 768px) {
 body{
-font-size: 13px;
+	min-width: 100%;
+	background-image: url(img/staroederevo7.jpg);
 }
-#img{
-	display: none;
+div{
+	position: relative;
 }
-} 
-@media (max-width: 359px){
-	#logo{
-		display: none;
-	}
+.bcg{
+	height: 600px;
+	background-position: center;
+	background-image: url(img/boar_PNG3.png);
 }
-@media (max-width: 992px){
-	#oneimg{
-		margin-bottom: 0px;
+.green{
+	height: 100%;
+	background-color: #6905;
+	box-shadow: 0px 0px 100px black;
 }
-	#twoimg{
-		margin-bottom: 0px;
+.logo{
+	color: #DEFF00;
+	font-family: 'Cormorant Infant', serif;
 }
-	#threeimg{
-		margin-bottom: 0px;
-	}
-	#twoblock{
-		margin-top: 0;
-	}
+.one{
+		font-size: 30pt;
+		margin-top: 50px;
 }
-#b{
-	z-index: 10;
-	background-color: #333300;
+.two{
+	font-size: 30pt;
 }
-#c{
-	background-color: #996633;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	min-height: 475px;
-	border-radius: 5px;
-}
-#logo{
-	background-color: white;
-	height: 101.328px;
-	width: 101.328px;
+.circle{
+	background-color: #99cc33;
 	border-radius: 100px;
-	margin-top: 53px;
+	border: 10px solid #99cc33;
+	height: 120px;
+	width: 120px;
+	margin-top: -60px;
+	margin-left: calc(50% - 50px);
+	margin-right: calc(50% - 50px);
+	margin-bottom: 50px;
 }
-#img{
-	width: 497.656px;
-	height: 641.406px;
 
-
+.mainone{
+	background-color: #fff;
+	box-shadow: 0px 0px 100px black;
+	margin-top: -100px;
 }
-main{
-	background-color: #333300;
-		box-shadow: 0px -10px 100px black;
+.caption{
+	text-align: center;
+	font-size: 24pt;
 }
-header{
-
-	background-image: linear-gradient(#cc9966, #663300 100%);
-}
-footer{
-	background-color: #663300;
-}
-#a{
-	background-image: linear-gradient(#cc9966, #663300 100%);
-	z-index: -1;
-	overflow: hidden;
-	min-height: 250px;
+.margin{
+	margin-bottom: 86px;
+	line-height: 34pt;
 }
 .text{
-	font-weight: 500;
+	font-size: 18pt;
+	text-align: justify;
 }
-#up{
- font-size: 2em;
-color: #ffff99;
-margin-bottom: 10px;
-margin-top: 15px;
-line-height: 30px;
-}
-#down{
-	font-size: 1.2em;
-	color: #cccc66;
-	line-height: 25px;
-	text-shadow: 1px 1px 1px black;
-}
-.picter{
-
-	margin-bottom: 20px;
-	width: 100%;
-}
-.a{
-	margin-top: 35px;
-	margin-bottom: 35px;
-	color: white;
-	font-size: 1.3em;
-}
-.on{
-	border: 5px solid #EC9112FF;
-}
-.block{
-	background-color: #ffcc66;
-	min-height: 200px;
-	border-radius: 5px;
-	margin-top: 70px;
-	margin-bottom: 100px;
-	padding: 10px;
-	font-size: 1.3em;
-}
-#d{
-	background-color: #663300;
+.maintwo{
+	box-shadow: 0px 0px 100px black;
 	z-index: -10;
-
+	background-image: url(img/derevo1.jpg);
 }
-h4{
-	text-align: center;
-	margin-bottom: 20px;
-
-}
-li{
-
-}
-.block>p{
-	margin-top: 20px;
-}
-.left{
-	text-align: left;
-}
-input{
-	margin-bottom: 20px;
+.gallery{
 	width: 100%;
+	height: auto;
 }
-#main{
-	margin-top: 35px;
-	margin-bottom: 35px;
-	background-color: #DD7C21FF;
-	background-position: center;
-    background-size: cover;
-    transition-duration: 1s;
-    background-repeat: no-repeat;
-    width: 100%
-}
-#upblock{
-	margin-bottom: 20px;
-}
-.buton{
-	width: 100%;
+.container{
+
 }
