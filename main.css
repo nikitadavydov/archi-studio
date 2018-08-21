@@ -8,7 +8,6 @@ body{
 	background-image: url(img/staroederevo7.jpg);
 }
 div{
-	position: relative;
 }
 main{
 	padding-bottom: 150px;
@@ -50,6 +49,7 @@ main{
 	background-color: #fff;
 	box-shadow: 0px 0px 100px black;
 	margin-top: -100px;
+	position: relative;
 }
 .caption{
 	text-align: center;
@@ -89,8 +89,8 @@ main{
 	color: #fff;
 	padding: 40px;
 	opacity: 0;
+	transition-duration: 1s;
 }
-
 .texthideone{
 	font-size: 20pt;
 }
