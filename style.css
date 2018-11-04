@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	min-width: 600px;
+	position: relative;
+	padding-bottom: 100px;
+}
+header{
+	background-color: #f04d44;
+	margin-top: 33px;
+	height: 617px;
+	background-image: url(img/PRosto_krasny_fon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+main{
+	margin-top: 32px;
+}
+.imge{
+	width: 100%;
+	min-width: 240px;
+
+}
+.img{
+	margin-left: calc(50% - 25px);
+	margin-top: 58px;
+}
+.two{
+	margin-top: 40px;
+}
+.text{
+	color: #cac9ca;
+}
+.caption{
+	font-size: 2em;
+	letter-spacing: 10px;
+}
+.bcg1{
+	height: 100%;
+	width: calc(100% + 35px);
+	background-image: url(img/Слой10.png);
+	background-position: center;
+	background-size: cover;	
+}
+.red{
+	background-color: #f04d44;
+	color: white;
+	min-height: 392px;
+	margin-top: 68px;
+
+}
+.imgrow{
+	margin-top: 100px;
+}
+.col, .col-2, .col-3, .col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+	display: flex;
+}
+.logoimg{
+	margin: auto;
+}
+.bcg2{
+	height: 100%;
+	width: calc(100%);
+	background-image: url(img/landscape-sunrise-sunset-night-morning-dawn-1197094-pxhere.com.png);
+	background-position: center;
+	background-size: cover;	
+}
+.bcg3{
+	background-image: url(img/Слой3.png);
+	height: 310px;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	margin-top: 300px;
+}
