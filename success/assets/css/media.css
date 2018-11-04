@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1260px) {
+	.block.about .left-block {width: calc(100% - 380px);}
+	.block.about .right-block {margin: 0;}
+}
+
+@media only screen and (max-width: 1180px) {
+	.block.about .left-block .address {max-width: 100%; margin-bottom: 25px;}
+}
+
+@media only screen and (max-width: 1140px) {
+	.you-rate {display: block; margin: 15px 0 0 0;}
+}
+
+@media only screen and (max-width: 1080px) {
+	.product-block *, .user-block * {float: none;}
+	.product-block {text-align: center;}
+	.related-documents {text-align: center;}
+	.related-documents .inline-b {margin: 10px;}
+	.form-container form button {position: inherit; max-width: 100%; margin: 3px 0 0 0!important; border-radius: 3px;}
+}
+
+@media only screen and (max-width: 1000px) {
+	.form-container {padding: 8%;}
+}
+
+@media only screen and (max-width: 920px) {
+	
+}
+
+@media only screen and (max-width: 840px) {
+	.block.hr {padding: 5% 0;}
+	.block.order .left-block, .block.order .right-block, .block.about .left-block, .block.about .right-block, .block.refaq .left-block, .block.refaq .right-block  {width: auto; max-width: inherit; float: none; margin: auto;}
+	.block.refaq .left-block, .block.refaq .right-block {margin: 0 0 25px 0;}
+	.form-container .arrow {margin: 5px 0 10px 0;}
+	.form-container ul {margin: auto;}
+	.form-container ul li {padding: 10px 0 10px 36px; margin: 0 0 8px 0;}
+	.form-container ul li:last-child {padding: 10px 0 10px 36px;}
+	.user-block, .product-block {padding: 25px 0;}
+	.warranty-container {margin: 0 auto;}
+}
+
+@media only screen and (max-width: 760px) {
+
+}
+
+@media only screen and (max-width: 700px) {
+	
+}
+
+@media only screen and (max-width: 640px) {
+	.wrap {padding: 0 15px;}
+	.form-container {padding: 15px;}
+}
+
+@media only screen and (max-width: 580px) {
+	.freehotline {display: none;}
+	.leave-review {padding: inherit;}
+}
+
+@media only screen and (max-width: 520px) {
+	.block.hr {padding: 25px 0;}
+	.px40 {font-size: 26px;}
+	.px30 {font-size: 26px;}
+}
+
+@media only screen and (max-width: 460px) {
+	.form-container .head {max-width: inherit;}
+	.form-container .arrow {display: block; margin: 10px auto; float: none;}
+	.block.about .left-block .inline-b {margin: 0 0 25px 0;}
+	.block.about .left-block .inline-b:last-child {margin: 0;}
+	.block.about .left-block .inline-b, .block.about .left-block .inline-b:last-child {width: 100%; max-width: inherit; text-align: center;}
+	.block.about .left-block .inline-b p {text-align: center;}
+	.block.about .about-img {display: none;}
+	.block.about .hidden-about-img {display: block;}
+	.review-user {min-width: inherit;}
+	.review-text {width: auto;}
+	.you-rate {display: block; margin: 15px 0 0 0;}
+	footer .inline-container span {display: inherit; margin: 10px 0 10px 0; text-align: center;}
+}
+
+@media only screen and (max-width: 380px) {
+	.warranty-container {display: none;}
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+/* For devices */
+@media only screen and (max-device-width: 1280px) and (max-device-height: 800px) and (orientation: landscape) {
+
+}
+
+@media only screen and (max-device-width: 800px) and (max-device-height: 1280px) and (orientation: portrait) {
+
+}
