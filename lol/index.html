@@ -32,8 +32,38 @@
     <meta name="theme-color" content="#ffffff">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 </head>
+<style>label{
+    height: 235px;
+    background-size: cover;
 
-<body id="main" class="full-screen">
+}
+.flex2{
+    padding-top: 4px !important;
+    height: 65px !important;
+}
+.flex{
+    padding-top: 90px !important;
+}
+.align{
+    margin: auto !important;
+}
+.topp{
+    padding-top: 100px;
+}
+.shadow{
+    box-shadow: 0px 0px 10px black;
+}
+.tshadow{
+    text-shadow: 0px 0px 10px black;
+}
+@media(max-width: 767px;)
+{
+    .flex2{
+        padding-top: 20px;
+    }
+}
+</style>
+<body style="background-size: cover;" id="main" class="full-screen">
     <div class="rel">
         <div class="overlay full-screen"></div>
     </div>
@@ -103,76 +133,79 @@
                             <div class="counter"><span class="discount-total-count">ПОДАРОК</span> </div> за&nbsp;экономию времени наших менеджеров
                         </div>
                     </div>
-                    <!-- <div class="border2 hidden-xs">
+                     <div class="border2 hidden-xs">
                         <div class="zag bold">Не знаете как ответить?</div>
                         <div class="descer">Получите консультацию технолога.
                             Оставьте имя и&nbsp;телефон, мы&nbsp;перезвоним за&nbsp;5&nbsp;минут!</div>
                         <form id="frm2" method="post" action="php/mail.php" class="contactform1"><input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]"><input type="text" name="phone" placeholder="Ваш телефон:" class="form-control phone validate[required]"><input type="text" name="action" hidden="" value="Не знаете как ответить?"><button class="mybtn_white">Получить консультацию</button>
                             <div id="confidential" class="minconf">Нажимая на кнопку «<span class="textbtn">Получить консультацию</span>», я даю <a href="politics.pdf" target="_blank">согласие на обработку персональных данных.</a></div>
                         </form>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="fades2 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 17%;" class="progress-line"></div>
-                                <div class="progress-value">17%</div>
-                            </div>
+                           
                             <div class="quest">Вопрос 1 из 6<h3>На&nbsp;какую категорию&nbsp;Вы хотите обучаться? </h3>
                             </div>
                             <div class="answers">
-                                <label class="nexts">
-                                    <div data-s="А" class="div"><img src="img/v1.jpg" alt="" class="img-responsive">
-                                        <div class="checkin"></div>
-                                        <div class="text">А</div>
+                                <label style="background-position: top ; background-image: url(img/v1.jpg);" class="flex nexts">
+                                    <div data-s="А" class="align div">
+                                        <div style="box-shadow: 0px 0px 10px black"  class="checkin"></div>
+                                        <div class="text tshadow">А</div>
                                     </div>
                                 </label>
-                                <label class="nexts">
-                                    <div data-s="B" class="div"><img src="img/v1_2.jpg" alt="" class="img-responsive">
-                                        <div class="checkin"></div>
-                                        <div class="text">B</div>
+                                <label style="background-position: top ; background-image: url(img/v1_2.jpg);" class="flex nexts">
+                                    <div data-s="B" class="align div">
+                                        <div style="box-shadow: 0px 0px 10px black"  class="checkin"></div>
+                                        <div class="text tshadow">B</div>
                                     </div>
                                 </label>
                               
-                                <label class="nexts">
-                                    <div data-s="С" class="div"><img src="img/v1_3.jpg" alt="" class="img-responsive">
-                                        <div class="checkin"></div>
-                                        <div class="text">С</div>
+                                <label style="background-position: top ; background-image: url(img/v1_3.jpg);" class="flex nexts">
+                                    <div data-s="С" class="align div">
+                                        <div  style="box-shadow: 0px 0px 10px black" class="checkin"></div>
+                                        <div class="text tshadow">С</div>
                                     </div>
                                 </label>
                             </div>
+                             <div style="display: block;" class="progress-wrapper">
+                                <div style="width: 17%;" class="progress-line"></div>
+                                <div class="progress-value">17%</div>
+                            </div>
                             <button href="#next" class="mybtn_white nexts2"> Следующий шаг</button>
+
                         </div>
                     </div>
                 </div>
                 <div class="fades3 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div style="display: block;" class="progress-wrapper">
+                            <div class="quest">Вопрос 2 из 6<h3>Какое расписание для Вас предпочтительнее?</h3>
+                            </div>
+                            <div class="answers"><label style="background-image: url(http://hq-oboi.ru/photo/vesenniy_solnechnyy_den_1920x1200.jpg);" class="flex nextsz">
+                                    <div data-s="Дневное" class="div">
+                                        <div class="shadow  checkin"></div>
+                                        <div class="text tshadow">Дневное </div>
+                                    </div>
+                                </label>
+                                <label style="background-image: url(http://pocrovahram.ru/uploads/shule/cbb59abc4edc.jpg);" class="flex nextsz">
+                                    <div data-s="Вечернее" class="div">
+                                        <div class="shadow  checkin"></div>
+                                        <div class="text tshadow">Вечернее</div>
+                                    </div>
+                                </label><label style="background-image: url(http://www.eltech.ru/assets/cache/images/university/news/1280x800-kalendar%281%29.d42.jpg);" class="flex nextsz">
+                                    <div data-s="Выходные дни" class="div">
+                                        <div class="shadow  checkin"></div>
+                                        <div class="text tshadow">Выходные дни</div>
+                                    </div>
+                                </label>
+                            </div><div style="display: block;" class="progress-wrapper">
                                 <div style="width: 33%;" class="progress-line"></div>
                                 <div class="progress-value">33%</div>
                             </div>
-                            <div class="quest">Вопрос 2 из 6<h3>Какое расписание для Вас предпочтительнее?</h3>
-                            </div>
-                            <div class="answers"><label class="nextsz">
-                                    <div data-s="Дневное" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Дневное </div>
-                                    </div>
-                                </label>
-                                <label class="nextsz">
-                                    <div data-s="Вечернее" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Вечернее</div>
-                                    </div>
-                                </label><label class="nextsz">
-                                    <div data-s="Выходные дни" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Выходные дни</div>
-                                    </div>
-                                </label>
-                            </div><button href="#next" class="mybtn_white nexts3"> Следующий шаг</button>
+
+                            <button href="#next" class="mybtn_white nexts3"> Следующий шаг</button>
                         </div>
                         
                     </div>
@@ -180,53 +213,55 @@
                 <div class="fades4 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 50%;" class="progress-line"></div>
-                                <div class="progress-value">50%</div>
-                            </div>
+                            
                             <div class="quest">Вопрос 3 из 6<h3>Желаете&nbsp;ли Вы&nbsp;обучаться теоретической части дистанционно?</h3>
                             </div>
-                            <div class="answers"><label class="nextsx">
+                            <div class="answers"><label style="background-image: url(http://www.asms.ru/upload/iblock/71e/71e198eb9f9753fbb8e098815853ddd2.jpg); background-position: right;" class="flex nextsx">
                                     <div data-s="Да" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Да</div>
+                                        <div class="shadow checkin"></div>
+                                        <div class="tshadow text">Да</div>
                                     </div>
-                                </label><label class="nextsx">
+                                </label><label style="background-image: url(https://www.mostrudexpert.ru/upload/dynamic/2017-11/03/edu.jpg);" class="flex nextsx">
                                     <div data-s="Нет" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Нет</div>
+                                        <div class="shadow checkin"></div>
+                                        <div class="tshadow text">Нет</div>
                                     </div>
-                                </label><label class="nextsx">
+                                </label><label style="background-position: center; background-image: url(img/71e198eb9f9753fbb8e098815853ddd2.jpg);" class="flex nextsx">
                                     <div data-s="Хочу совмещать посещение лекций с онлайн обучением" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Хочу совмещать посещение лекций с&nbsp;онлайн обучением</div>
+                                        <div class="shadow checkin"></div>
+                                        <div class="tshadow text">Хочу совмещать посещение лекций с&nbsp;онлайн обучением</div>
                                     </div>
-                                </label></div><button href="#next" class="mybtn_white nexts4"> Следующий шаг</button>
+                                </label></div>
+                                <div style="display: block;" class="progress-wrapper">
+                                <div style="width: 50%;" class="progress-line"></div>
+                                <div class="progress-value">50%</div>
+                            </div><button href="#next" class="mybtn_white nexts4"> Следующий шаг</button>
                         </div>
                     </div>
                 </div>
                 <div class="fades5 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
+                            <div class="quest">Вопрос 4 из 6<h3>На&nbsp;каком автомобиле&nbsp;Вы хотели&nbsp;бы обучаться?</h3>
+                            </div>
+                            <div class="answers"><label style="background-image: url(img/v4_2.jpg);" class=" flex nextsv">
+                                    <div data-s="Отечественный" class="div">
+                                        <div class="shadow checkin"></div>
+                                        <div class="text tshadow">Отечественный</div>
+                                    </div>
+                                </label>
+                                <label style="background-image: url(img/v4_1.jpg);" class=" flex nextsv">
+                                    <div data-s="Иномарка" class="div">
+                                        <div class="shadow checkin"></div>
+                                        <div class="text tshadow">Иномарка</div>
+                                    </div>
+                                </label>
+                            </div>
                             <div style="display: block;" class="progress-wrapper">
                                 <div style="width: 67%;" class="progress-line"></div>
                                 <div class="progress-value">67%</div>
                             </div>
-                            <div class="quest">Вопрос 4 из 6<h3>На&nbsp;каком автомобиле&nbsp;Вы хотели&nbsp;бы обучаться?</h3>
-                            </div>
-                            <div class="answers"><label  class="nextsv">
-                                    <div data-s="Отечественный" class="div"><img src="img/v4_1.jpg" alt="" class="img-responsive">
-                                        <div class="checkin"></div>
-                                        <div class="text">Отечественный</div>
-                                    </div>
-                                </label>
-                                <label  class="nextsv">
-                                    <div data-s="Иномарка" class="div"><img src="img/v4_2.jpg" alt="" class="img-responsive">
-                                        <div class="checkin"></div>
-                                        <div class="text">Иномарка</div>
-                                    </div>
-                                </label>
-                            </div>
+
                             <button href="#next" class="mybtn_white nexts5"> Следующий шаг</button>
                         </div>
                     </div>
@@ -234,24 +269,25 @@
                 <div class="fades6 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 84%;" class="progress-line"></div>
-                                <div class="progress-value">84%</div>
-                            </div>
                             <div class="quest">Вопрос 5 из 6<h3>Какой вид трансмиссии на&nbsp;учебном автомобиле Вам интересен?</h3>
                             </div>
-                            <div class="answers"><label class="nextsc">
+                            <div class="answers"><label style="background-image: url(http://autochainik.ru/wp-content/uploads/2017/04/princip_mkpp_main.jpg);" class="flex nextsc">
                                     <div data-s="Механическая коробка передач" class="div">
                                         <div class="checkin"></div>
                                         <div class="text">Механическая коробка передач </div>
                                     </div>
-                                </label><label class="nextsc">
+                                </label><label style="background-image: url(http://autoprepod.ru/images/akpp/upravlenie_akpp1.jpg);" class="flex nextsc">
                                     <div data-s="Автоматическая коробка передач" class="div">
                                         <div class="checkin"></div>
                                         <div class="text">Автоматическая коробка передач</div>
                                     </div>
                                 </label>
                             </div>
+                            <div style="display: block;" class="progress-wrapper">
+                                <div style="width: 84%;" class="progress-line"></div>
+                                <div class="progress-value">84%</div>
+                            </div>
+
                             <button href="#next" class="mybtn_white nexts6"> Следующий шаг</button>
                         </div>
                     </div>
@@ -259,79 +295,79 @@
                 <div class="fades7 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 100%;" class="progress-line"></div>
-                                <div class="progress-value">100%</div>
-                            </div>
+                            
                             <div class="quest">Вопрос 6 из 6<h3>В&nbsp;какой части города Вам удобней обучаться?</h3>
                             </div>
                             <div class="answers">
-                            	<label>
-                                    <div data-s="ЦАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЦАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЦАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="САО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="САО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">САО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="СВАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="СВАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">СВАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ВАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ВАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ВАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ЮВАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЮВАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЮВАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ЮАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЮАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЮАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ЦАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЦАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЦАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ЗАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЗАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЗАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="СЗАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="СЗАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">СЗАО</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ЗалАо" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ЗалАо" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ЗалАо</div>
                                     </div>
                                 </label>
-                            	<label>
-                                    <div data-s="ТАО" class="div">
+                            	<label class="flex2">
+                                    <div data-s="ТАО" class="flex2 div">
                                         <div class="checkin"></div>
                                         <div class="text">ТАО</div>
                                     </div>
                                 </label>
+                            </div><div style="display: block;" class="progress-wrapper">
+                                <div style="width: 100%;" class="progress-line"></div>
+                                <div class="progress-value">100%</div>
                             </div>
                             <button href="#next" class="mybtn_white nexts7">Следующий шаг</button>
                         </div>
