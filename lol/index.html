@@ -32,17 +32,28 @@
     <meta name="theme-color" content="#ffffff">
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 </head>
-<style>label{
-    height: 235px;
+<style>
+label{
+    height: 50px;
+    transition-duration: 1s;
+    
     background-size: cover;
 
+}
+.text{
+    position: absolute;
+    top: auto;
+    right: 10px;
+}
+.onnn{
+    background-color: orange !important;
 }
 .flex2{
     padding-top: 4px !important;
     height: 65px !important;
 }
 .flex{
-    padding-top: 90px !important;
+    display: flex !important;
 }
 .align{
     margin: auto !important;
@@ -55,6 +66,13 @@
 }
 .tshadow{
     text-shadow: 0px 0px 10px black;
+}
+.div{
+    position: relative;
+    width: 100%;
+}
+.right{
+    text-align: right!important;
 }
 @media(max-width: 767px;)
 {
@@ -95,11 +113,8 @@
             <div class="basic">
                 <div class="row">
                     <div class="col-xs-12"><h1 class="bold"><span class="new"> 
-Ответьте на&nbsp;несколько вопросов и&nbsp;мы&nbsp;подберем для Вас
-<br class="hidden-xs">
-1&nbsp;&mdash; 3&nbsp;лучшие автошколы в&nbsp;г.&nbsp;Москва.
-<br class="hidden-xs">
-Так&nbsp;же мы&nbsp;приготовили для Вас подарок!</span></h1>
+ПРОЙДИТЕ ТЕСТ И ПОЛУЧИТЕ
+3 НАИБОЛЕЕ ПОДХОДЯЩИХ ВАМ ФРАНШИЗЫ</span></h1>
 
 				<button class="callback_next mybtn_white">Пройти тест online</button></div>
                 </div>
@@ -144,34 +159,52 @@
                 </div>
                 <div class="fades2 fds">
                     <div class="col-md-9 col-sm-8">
-                        <div class="block">
+                        <div class="block" style=>
                            
-                            <div class="quest">Вопрос 1 из 6<h3>На&nbsp;какую категорию&nbsp;Вы хотите обучаться? </h3>
+                            <div class="quest">Вопрос 1 из 5<h3>&nbsp;Какая сфера бизнеса&nbsp; вам ближе? </h3>
                             </div>
-                            <div class="answers">
-                                <label style="background-position: top ; background-image: url(img/v1.jpg);" class="flex nexts">
-                                    <div data-s="А" class="align div">
-                                        <div style="box-shadow: 0px 0px 10px black"  class="checkin"></div>
-                                        <div class="text tshadow">А</div>
+                            <div class="answers row">
+                                <label class="flex nexts  col" style="float: left;">
+                                    <div data-s="А" class="align div flex">
+                                        
+                                        <div class="right text align">Производство</div>
                                     </div>
                                 </label>
-                                <label style="background-position: top ; background-image: url(img/v1_2.jpg);" class="flex nexts">
+                                <label class="flex nexts col" style="float: left;">
                                     <div data-s="B" class="align div">
-                                        <div style="box-shadow: 0px 0px 10px black"  class="checkin"></div>
-                                        <div class="text tshadow">B</div>
+                                        
+                                        <div class="right text align">Кафе и рестораны</div>
                                     </div>
                                 </label>
-                              
-                                <label style="background-position: top ; background-image: url(img/v1_3.jpg);" class="flex nexts">
+                                <label class="flex nexts col" style="float: left;">
                                     <div data-s="С" class="align div">
-                                        <div  style="box-shadow: 0px 0px 10px black" class="checkin"></div>
-                                        <div class="text tshadow">С</div>
+                                        
+                                        <div class="right text align ">Розничная торговля</div>
+                                    </div>
+                                </label>
+                                <label class="flex nexts col">
+                                    <div data-s="С" class="align div">
+                                        
+                                        <div class="right text align">Услуги для бизнеса</div>
+                                    </div>
+                                </label>
+                                <label class="flex nexts col">
+                                    <div data-s="С" class="align div">
+                                        
+                                        <div class="right text align">Не имеет значения</div>
+                                    </div>
+                                </label>
+                                <label class="flex nexts col">
+                                    <div data-s="С" class="align div">
+                                        
+                                        <div class="right text align ">Авто</div>
                                     </div>
                                 </label>
                             </div>
+
                              <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 17%;" class="progress-line"></div>
-                                <div class="progress-value">17%</div>
+                                <div style="width: 20%;" class="progress-line"></div>
+                                <div class="progress-value">20%</div>
                             </div>
                             <button href="#next" class="mybtn_white nexts2"> Следующий шаг</button>
 
@@ -181,28 +214,37 @@
                 <div class="fades3 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div class="quest">Вопрос 2 из 6<h3>Какое расписание для Вас предпочтительнее?</h3>
+                            <div class="quest">Вопрос 2 из 5<h3>Население вашего города?</h3>
                             </div>
-                            <div class="answers"><label style="background-image: url(http://hq-oboi.ru/photo/vesenniy_solnechnyy_den_1920x1200.jpg);" class="flex nextsz">
-                                    <div data-s="Дневное" class="div">
-                                        <div class="shadow  checkin"></div>
-                                        <div class="text tshadow">Дневное </div>
+                            <div class="answers">
+                                <label  class="flex nextszf" style="float: left;">
+                                    <div data-s="менее 250 000" class="div flex align">
+                                        
+                                        <div class="text align right">Менее 250 000 </div>
                                     </div>
                                 </label>
-                                <label style="background-image: url(http://pocrovahram.ru/uploads/shule/cbb59abc4edc.jpg);" class="flex nextsz">
-                                    <div data-s="Вечернее" class="div">
-                                        <div class="shadow  checkin"></div>
-                                        <div class="text tshadow">Вечернее</div>
-                                    </div>
-                                </label><label style="background-image: url(http://www.eltech.ru/assets/cache/images/university/news/1280x800-kalendar%281%29.d42.jpg);" class="flex nextsz">
-                                    <div data-s="Выходные дни" class="div">
-                                        <div class="shadow  checkin"></div>
-                                        <div class="text tshadow">Выходные дни</div>
+                                <label class="flex nextszf">
+                                    <div data-s="250 000 - 500 000" class="div flex align">
+                                        
+                                        <div class="text align right">250 000 - 500 000</div>
                                     </div>
                                 </label>
-                            </div><div style="display: block;" class="progress-wrapper">
-                                <div style="width: 33%;" class="progress-line"></div>
-                                <div class="progress-value">33%</div>
+                                <label class="flex nextszf" style="float: left;">
+                                    <div data-s="500 000 - 1 000 000" class="div flex align">
+                                        
+                                        <div class="text align right">500 000 - 1 000 000</div>
+                                    </div>
+                                </label>
+                                <label class="flex nextszf" style="">
+                                    <div data-s="Более 1 000 000" class="div flex align">
+                                        
+                                        <div class="text align right">Более 1 000 000</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div style="display: block;" class="progress-wrapper">
+                                <div style="width: 40%;" class="progress-line"></div>
+                                <div class="progress-value">40%</div>
                             </div>
 
                             <button href="#next" class="mybtn_white nexts3"> Следующий шаг</button>
@@ -214,27 +256,35 @@
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
                             
-                            <div class="quest">Вопрос 3 из 6<h3>Желаете&nbsp;ли Вы&nbsp;обучаться теоретической части дистанционно?</h3>
+                            <div class="quest">Вопрос 3 из 5<h3>Ваш&nbsp;опыт&nbsp;работы в бизнесе?</h3>
                             </div>
-                            <div class="answers"><label style="background-image: url(http://www.asms.ru/upload/iblock/71e/71e198eb9f9753fbb8e098815853ddd2.jpg); background-position: right;" class="flex nextsx">
-                                    <div data-s="Да" class="div">
-                                        <div class="shadow checkin"></div>
-                                        <div class="tshadow text">Да</div>
+                            <div class="answers">  <label  class="flex nextszf" style="float: left;">
+                                    <div data-s="Дневное" class="div flex align">
+                                        
+                                        <div class="text align right">Нет опыта </div>
                                     </div>
-                                </label><label style="background-image: url(https://www.mostrudexpert.ru/upload/dynamic/2017-11/03/edu.jpg);" class="flex nextsx">
-                                    <div data-s="Нет" class="div">
-                                        <div class="shadow checkin"></div>
-                                        <div class="tshadow text">Нет</div>
+                                </label>
+                                <label class="flex nextszf">
+                                    <div data-s="Вечернее" class="div flex align">
+                                        
+                                        <div class="text align right">1 - 2.5 лет</div>
                                     </div>
-                                </label><label style="background-position: center; background-image: url(img/71e198eb9f9753fbb8e098815853ddd2.jpg);" class="flex nextsx">
-                                    <div data-s="Хочу совмещать посещение лекций с онлайн обучением" class="div">
-                                        <div class="shadow checkin"></div>
-                                        <div class="tshadow text">Хочу совмещать посещение лекций с&nbsp;онлайн обучением</div>
+                                </label>
+                                <label class="flex nextszf" style="float: left;">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">2.5 - 5 лет</div>
+                                    </div>
+                                </label>
+                                <label class="flex nextszf" style="">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">Более 5 лет</div>
                                     </div>
                                 </label></div>
                                 <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 50%;" class="progress-line"></div>
-                                <div class="progress-value">50%</div>
+                                <div style="width: 60%;" class="progress-line"></div>
+                                <div class="progress-value">60%</div>
                             </div><button href="#next" class="mybtn_white nexts4"> Следующий шаг</button>
                         </div>
                     </div>
@@ -242,24 +292,25 @@
                 <div class="fades5 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div class="quest">Вопрос 4 из 6<h3>На&nbsp;каком автомобиле&nbsp;Вы хотели&nbsp;бы обучаться?</h3>
+                            <div class="quest">Вопрос 4 из 5<h3>&nbsp;Какой у вас источник финансирования?&nbsp;&nbsp;</h3>
                             </div>
-                            <div class="answers"><label style="background-image: url(img/v4_2.jpg);" class=" flex nextsv">
-                                    <div data-s="Отечественный" class="div">
-                                        <div class="shadow checkin"></div>
-                                        <div class="text tshadow">Отечественный</div>
+                            <div class="answers"> 
+                                <label class="flex nextszf" style="float: left;">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">Свои средства</div>
                                     </div>
                                 </label>
-                                <label style="background-image: url(img/v4_1.jpg);" class=" flex nextsv">
-                                    <div data-s="Иномарка" class="div">
-                                        <div class="shadow checkin"></div>
-                                        <div class="text tshadow">Иномарка</div>
+                                <label class="flex nextszf" style="">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">Заёмные срадства</div>
                                     </div>
                                 </label>
                             </div>
                             <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 67%;" class="progress-line"></div>
-                                <div class="progress-value">67%</div>
+                                <div style="width: 80%;" class="progress-line"></div>
+                                <div class="progress-value">80%</div>
                             </div>
 
                             <button href="#next" class="mybtn_white nexts5"> Следующий шаг</button>
@@ -269,117 +320,51 @@
                 <div class="fades6 fds">
                     <div class="col-md-9 col-sm-8">
                         <div class="block">
-                            <div class="quest">Вопрос 5 из 6<h3>Какой вид трансмиссии на&nbsp;учебном автомобиле Вам интересен?</h3>
-                            </div>
-                            <div class="answers"><label style="background-image: url(http://autochainik.ru/wp-content/uploads/2017/04/princip_mkpp_main.jpg);" class="flex nextsc">
-                                    <div data-s="Механическая коробка передач" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Механическая коробка передач </div>
-                                    </div>
-                                </label><label style="background-image: url(http://autoprepod.ru/images/akpp/upravlenie_akpp1.jpg);" class="flex nextsc">
-                                    <div data-s="Автоматическая коробка передач" class="div">
-                                        <div class="checkin"></div>
-                                        <div class="text">Автоматическая коробка передач</div>
-                                    </div>
-                                </label>
-                            </div>
-                            <div style="display: block;" class="progress-wrapper">
-                                <div style="width: 84%;" class="progress-line"></div>
-                                <div class="progress-value">84%</div>
-                            </div>
-
-                            <button href="#next" class="mybtn_white nexts6"> Следующий шаг</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="fades7 fds">
-                    <div class="col-md-9 col-sm-8">
-                        <div class="block">
-                            
-                            <div class="quest">Вопрос 6 из 6<h3>В&nbsp;какой части города Вам удобней обучаться?</h3>
+                            <div class="quest">Вопрос 5 из 5<h3>Сколько вы готовы инвестировать?
+                            </h3>
                             </div>
                             <div class="answers">
-                            	<label class="flex2">
-                                    <div data-s="ЦАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЦАО</div>
+                                <label  class="flex nextszf" style="float: left;">
+                                    <div data-s="Дневное" class="div flex align">
+                                        
+                                        <div class="text align right">Ни сколько </div>
                                     </div>
                                 </label>
-                            	<label class="flex2">
-                                    <div data-s="САО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">САО</div>
+                                <label class="flex nextszf">
+                                    <div data-s="Вечернее" class="div flex align">
+                                        
+                                        <div class="text align right">Менее 500 000 руб.</div>
                                     </div>
                                 </label>
-                            	<label class="flex2">
-                                    <div data-s="СВАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">СВАО</div>
+                                <label class="flex nextszf" style="float: left;">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">500 000 - 1 000 000 руб.</div>
                                     </div>
                                 </label>
-                            	<label class="flex2">
-                                    <div data-s="ВАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ВАО</div>
+                                <label class="flex nextszf" style="">
+                                    <div data-s="Выходные дни" class="div flex align">
+                                        
+                                        <div class="text align right">Более 1 000 000 руб.</div>
                                     </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ЮВАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЮВАО</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ЮАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЮАО</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ЦАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЦАО</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ЗАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЗАО</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="СЗАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">СЗАО</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ЗалАо" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ЗалАо</div>
-                                    </div>
-                                </label>
-                            	<label class="flex2">
-                                    <div data-s="ТАО" class="flex2 div">
-                                        <div class="checkin"></div>
-                                        <div class="text">ТАО</div>
-                                    </div>
-                                </label>
-                            </div><div style="display: block;" class="progress-wrapper">
+                                </label>                            </div>
+                            <div style="display: block;" class="progress-wrapper">
                                 <div style="width: 100%;" class="progress-line"></div>
                                 <div class="progress-value">100%</div>
                             </div>
-                            <button href="#next" class="mybtn_white nexts7">Следующий шаг</button>
+
+                            <button href="#next" class="mybtn_white nexts7"> Завершить тест</button>
                         </div>
                     </div>
                 </div>
+                
                 <div class="fades9 fds">
                     <div class="col-xs-12">
                         <div class="block">
                             <div class="quest"><h3>Отлично. Последний шаг! Заполните форму ниже для получения результатов теста.</h3>
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="text">
+                                        <div class="text" style="position: relative!important;">
                                             <div>Так&nbsp;же в&nbsp;течение дня мы&nbsp;вышлем информацию о&nbsp;Вашем подарке в&nbsp;sms/сообщении.</div>
                                             <form id="frm2" method="post" action="php/mail.php" class="contactform_q"><input type="text" name="name" placeholder="Ваше имя:" class="form-control frstclass validate[required]"><input type="tel" name="phone" placeholder="Ваш телефон:" class="form-control  phone validate[required]"><select title="Удобный способ связи" class="selectpicker">
                                                     <option value="Звонок на телефон">Звонок на телефон</option>

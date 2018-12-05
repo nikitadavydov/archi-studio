@@ -136,11 +136,8 @@ $(function(){
 	f4 = 0;
 
 	$('label').click(function(event) {
-		if($(this).find('.checkin').html()==''){
-			$(this).find('.checkin').html('<i class="fa fa-check">');
-		} else {
-			$(this).find('.checkin').html('');
-		}
+		$("label").removeClass("onnn");
+		$(this).toggleClass("onnn");
 		
 		$(this).closest('.block').find('button.mybtn_white').fadeIn(300).addClass('blockbtn');
 	});
@@ -200,12 +197,12 @@ $(function(){
 	var summas;
 
 	$(".nexts7").on("click", function(){
-	    $('.fades7').fadeOut(0);
+	    $('.fades6').fadeOut(0);
 	    $('.fadesxs3').fadeOut(0);
 	    $('.fades9').fadeIn(300);
 
 
-	    $.each($('.fades7 i.fa.fa-check'), function(index, val) {
+	    $.each($('.fades6 i.fa.fa-check'), function(index, val) {
 	    	q6 =  $(val).closest('.div').data('s') + '. ' + q6;
 	    });
 	    q6 = q6.split('undefined');
